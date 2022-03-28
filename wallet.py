@@ -2,8 +2,8 @@ from calendar import c
 from web3 import Web3
 
 # web3 instance 
-infura_url = "https://mainnet.infura.io/v3/ef0e860f921a488fa3d889927970f4a9"    # ссылка на endpoint проекта на infura
-web3 = Web3(Web3.HTTPProvider(infura_url))                                      # установление взаимодейтсвия проекта и сервера 
+infura_url = ""    
+web3 = Web3(Web3.HTTPProvider(infura_url))                                
 
 account = web3.eth.account.create()
 print(account)
