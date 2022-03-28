@@ -2,8 +2,8 @@ import json
 from web3 import Web3
 
 
-ganache_url = "HTTP://127.0.0.1:7545"                       # адрес из локального блокчейна 
-web3 = Web3(Web3.HTTPProvider(ganache_url))                 # коннект с адресом
+ganache_url = "HTTP://127.0.0.1:7545"                       
+web3 = Web3(Web3.HTTPProvider(ganache_url))                 
 
 web3.eth.defaultAccount = web3.eth.accounts[0]
 
