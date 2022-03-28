@@ -5,7 +5,7 @@ web3 = Web3(Web3.HTTPProvider(ganache_url))                 # connect
 
 print(web3.isConnected())
 
-# отправление криптовалюты на c 1 аккаунта на 2
+# sending cryptocurrency from 1 account to 2 
 account_1 = "0x94a9EEa52B805FaF3Ba728446B28541dd38507f6"    # 1 random account
 account_2 = "0x40DfC0cdA8AF23fdf09A3bCDDBCe848E08Ed2De8"    # 2 random account
 
